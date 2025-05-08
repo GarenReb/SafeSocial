@@ -22,7 +22,7 @@ Teknologi • HTML: Struktur for websitet. • SCSS: Bruges til stil og responsi
 
 Installation 1. Klon dette repository til din lokale maskine:
 
-git clone https://github.com/garenreb/safecocial.git
+git clone https://github.com/garenreb/safesocial.git
 
 2.	Åbn index.html i din browser for at se projektet i aktion. 
 
