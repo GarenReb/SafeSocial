@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Er du sikker online? På SafeSocial.dk lærer du, hvordan du spotter fup, undgår hacking og bliver klogere på sociale medier – hurtigt, sjovt og nemt."
+    />
+    <title>SafeSocial.dk</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/scenarie.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9e8d24e930.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="nav-logo-container">
+          <a href="index.html" class="nav-logo" aria-label="SafeSocial forside">
+            <img src="img/safesocial_logo.png" alt="SafeSocial.dk logo" />
+          </a>
+          <button
+            id="mobileMenuTrigger"
+            aria-expanded="false"
+            aria-controls="navigationLinks"
+            title="Open and close navigation"
+          >
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </button>
+        </div>
+        <div id="navigationLinks" class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="index.html">FORSIDE</a></li>
+            <li><a href="datasikkerhed.html">DATASIKKERHED</a></li>
+            <li><a href="om_os.html">OM OS</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+          </ul>
+          <div class="nav-socials">
+            <a
+              href="#"
+              title="Besøg SafeSocial på Facebook"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a
+              href="#"
+              title="Besøg SafeSocial på Instagram"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="#"
+              title="Besøg SafeSocial på TikTok"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-----Artikel------->
+
+    <article class="artikel">
+      <img src="img/pigbuthering.webp" alt="Billede af gris med telefon" />
+
+      <h1>Vil du undgå at blive den fede gris?</h1>
+
+      <p class="artikel-intro">
+        Pig butchering er en sofistikeret form for online-svindel, hvor
+        gerningspersoner opbygger en følelsesmæssig eller tillidsbaseret
+        relation til offeret og derefter langsomt lokker dem til at investere i
+        falske platforme – ofte med fokus på kryptovaluta.
+      </p>
+
+      <p>Af <cite>Kenneth Kristiansen</cite></p>
+
+      <p>
+        Udtrykket stammer fra Kina og henviser til at opfede et svin, før man
+        slagter det. Metoden opstod omkring 2018 og blev først koblet til
+        kærlighedssvindel og falske investeringer – primært rettet mod kinesiske
+        borgere. I dag har fænomenet spredt sig globalt og ses ofte på sociale
+        medier og datingapps.
+      </p>
+
+      <p>
+        Svindlere kontakter ofre via platforme som Facebook, Instagram eller
+        TikTok og opbygger en tæt og personlig relation. De flirter, udtrykker
+        omsorg eller giver følelsen af et tæt venskab. Når tilliden er skabt,
+        introducerer de "sikre investeringer" med store afkast. Ofte fremviser
+        de falske billeder og videoer af luksusliv for at lokke dig til at sende
+        penge. Men når pengene er sendt – hører du aldrig fra dem igen.
+      </p>
+
+      <h3>Sådan undgår du pig butchering</h3>
+      <ul class="punkter">
+        <li>Vær kritisk over for personer, du kun har mødt online.</li>
+        <li>Del ikke private eller økonomiske oplysninger med fremmede.</li>
+        <li>Undersøg grundigt platforme, før du investerer.</li>
+        <li>Send aldrig penge til nogen, du ikke har mødt i virkeligheden.</li>
+      </ul>
+      <!-- Intro til scenarie -->
+      <main class="scenario-container">
+        <section id="intro">
+          <h2>Kan du spotte svindel</h2>
+          <p>
+            Er du klar til at teste dine evner mod phishing på sociale medier?
+          </p>
+          <p>Tænk hurtigt, eller løber tiden ud.</p>
+          <button id="startButton" class="btn-scenario">Start test</button>
+        </section>
+
+        <!------Scenarie------->
+        <section id="scenario" style="display: none">
+          <div id="timer">Tid: 20s</div>
+          <div class="text-container">
+            <p class="text"></p>
+          </div>
+          <div id="option-buttons" class="btn-container"></div>
+        </section>
+      </main>
+    </article>
+    </article>
+
+  
+
+    <!-- Footer -->
+    <footer>
+      <div class="tekstfooter">
+        <p>© 2025 SafeSocial.dk –</p>
+        <a
+          href="mailto:kontakt@safesocial.dk"
+          aria-label="kontakt@safesocial.dk - Send os en mail"
+          >kontakt@safesocial.dk</a
+        >
+      </div>
+      <div class="somefooter">
+        <a
+          href="#"
+          aria-label="Besøg os på Facebook"
+          target="_blank"
+          rel="noopener"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          href="#"
+          aria-label="Besøg os på Instagram"
+          target="_blank"
+          rel="noopener"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="#"
+          aria-label="Besøg os på TikTok"
+          target="_blank"
+          rel="noopener"
+          ><i class="fa-brands fa-tiktok"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

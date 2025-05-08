@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Er du sikker online? På SafeSocial.dk lærer du, hvordan du spotter fup, undgår hacking og bliver klogere på sociale medier – hurtigt, sjovt og nemt."
+    />
+    <title>SafeSocial.dk</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9e8d24e930.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="nav-logo-container">
+          <a href="index.html" class="nav-logo" aria-label="SafeSocial forside">
+            <img src="img/safesocial_logo.png" alt="SafeSocial.dk logo" />
+          </a>
+          <button
+            id="mobileMenuTrigger"
+            aria-expanded="false"
+            aria-controls="navigationLinks"
+            title="Open and close navigation"
+          >
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </button>
+        </div>
+        <div id="navigationLinks" class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="index.html">FORSIDE</a></li>
+            <li><a href="datasikkerhed.html">DATASIKKERHED</a></li>
+            <li><a href="om_os.html">OM OS</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+          </ul>
+          <div class="nav-socials">
+            <a
+              href="#"
+              title="Besøg SafeSocial på Facebook"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a
+              href="#"
+              title="Besøg SafeSocial på Instagram"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="#"
+              title="Besøg SafeSocial på TikTok"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-----Kontaktformular---->
+    <div class="contact-container">
+      <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        class="contact-right"
+      >
+        <div class="contact-right-title">
+          <h1>Skriv til os</h1>
+          <hr />
+        </div>
+        <input
+          type="hidden"
+          name="access_key"
+          value="e81ee120-d83f-4b76-8917-6d4b995da4ca"
+        />
+        <label for="name" class="visually-hidden">Dit navn</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Dit navn"
+          class="contact-inputs"
+          aria-required="true"
+          required
+        />
+        <label for="email" class="visually-hidden">Din email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Din email"
+          class="contact-inputs"
+          aria-required="true"
+          required
+        />
+        <label for="message" class="visually-hidden">Din besked</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Din besked"
+          class="contact-inputs"
+          aria-required="true"
+          required
+        ></textarea>
+        <div id="form-feedback" aria-live="polite"></div>
+        <button type="submit" aria-label="Send besked">
+          Send <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="tekstfooter">
+        <p>© 2025 SafeSocial.dk –</p>
+        <a
+          href="mailto:kontakt@safesocial.dk"
+          aria-label="kontakt@safesocial.dk - Send os en mail"
+          >kontakt@safesocial.dk</a
+        >
+      </div>
+      <div class="somefooter">
+        <a
+          href="#"
+          aria-label="Besøg os på Facebook"
+          target="_blank"
+          rel="noopener"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          href="#"
+          aria-label="Besøg os på Instagram"
+          target="_blank"
+          rel="noopener"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="#"
+          aria-label="Besøg os på TikTok"
+          target="_blank"
+          rel="noopener"
+          ><i class="fa-brands fa-tiktok"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
