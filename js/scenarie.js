@@ -73,7 +73,7 @@ function showEndNode() {
   optionsBtnElement.appendChild(button);
 
   const link = document.createElement('a');
-  link.href = 'http://inferi.dk/datasikkerhed/phishing.html';
+  link.href = 'http://inferi.dk/datasikkerhed/phising.html';
   link.innerText = 'Læs mere om phishing her';
   link.target = '_blank';
   link.classList.add('article-link');
