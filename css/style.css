@@ -438,7 +438,7 @@ footer .somefooter i:hover {
 /*Side om datasikkerhed*/
 .artikel-sektion {
   display: flex;
-  justify-items: center;
+  justify-content: center;
   flex-direction: column;
   gap: 40px;
   margin: 0px 30px 20px 30px;
