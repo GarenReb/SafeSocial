@@ -815,7 +815,7 @@ footer {
   /*Side om datasikkerhed*/
   .artikel-sektion {
     margin-top: 30px;
-    margin: 0 200px 0 200px;
+    margin: $tablet-margin;
 
     h1 {
       font-size: 3rem;
@@ -959,7 +959,7 @@ footer {
 
   /*Artikler*/
   .artikel {
-    margin: $desktop-margin;
+    margin: $artikel-desktop-margin;
   }
 
   /*Om os-sider*/

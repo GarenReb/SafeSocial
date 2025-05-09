@@ -727,7 +727,7 @@ footer .somefooter i:hover {
   /*Side om datasikkerhed*/
   .artikel-sektion {
     margin-top: 30px;
-    margin: 0 200px 0 200px;
+    margin: 0px 200px 20px 200px;
   }
   .artikel-sektion h1 {
     font-size: 3rem;
@@ -845,15 +845,15 @@ footer .somefooter i:hover {
   }
   /*Side om datasikkerhed*/
   .artikel-sektion {
-    margin: 0px 550px 20px 550px;
+    margin: 0px 600px 20px 600px;
   }
   /*Artikler*/
   .artikel {
-    margin: 0px 550px 20px 550px;
+    margin: 0px 650px 20px 650px;
   }
   /*Om os-sider*/
   #om-os {
-    margin: 0px 550px 20px 550px;
+    margin: 0px 600px 20px 600px;
   }
   /*Testside*/
   .scenario-container h1, .scenario-container p {
