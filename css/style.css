@@ -495,6 +495,8 @@ footer .somefooter i:hover {
 }
 .artikel img {
   border-radius: 10px;
+  margin: 30px auto 30px auto;
+  display: block;
 }
 .artikel h2 {
   margin-top: 15px;
@@ -766,7 +768,7 @@ footer .somefooter i:hover {
     margin: 0px 200px 20px 200px;
   }
   .artikel img {
-    margin: 20px auto 20px auto;
+    margin: 30px auto 30px auto;
     display: block;
   }
   /*Om os tablet*/
@@ -848,10 +850,6 @@ footer .somefooter i:hover {
   /*Artikler*/
   .artikel {
     margin: 0px 550px 20px 550px;
-  }
-  .artikel img {
-    margin: 20px auto 20px auto;
-    display: block;
   }
   /*Om os-sider*/
   #om-os {

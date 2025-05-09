@@ -563,6 +563,8 @@ footer {
 
   img {
     border-radius: $border-radius;
+    margin: 30px auto 30px auto; 
+    display: block;
   }
 
   h2 {
@@ -859,7 +861,7 @@ footer {
     margin: $tablet-margin;
 
     img {
-      margin: 20px auto 20px auto; 
+      margin: 30px auto 30px auto; 
       display: block;
       
     }
@@ -958,12 +960,6 @@ footer {
   /*Artikler*/
   .artikel {
     margin: $desktop-margin;
-
-    img {
-      margin: 20px auto 20px auto; 
-      display: block;
-      
-    }
   }
 
   /*Om os-sider*/
