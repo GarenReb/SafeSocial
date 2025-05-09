@@ -1,11 +1,3 @@
-let userChoices = [];
-const textElement = document.querySelector('.text');
-const optionsBtnElement = document.querySelector('#option-buttons');
-const timerElement = document.querySelector('#timer');
-let countdown;
-let timeLeft = 20;
-let currentNodeId = 1;
-
 "use strict";
 
 // Hamburger-menu
@@ -34,6 +26,16 @@ document.addEventListener("keydown", (event) => {
     mobileMenutrigger.classList.remove("active");
   }
 });
+
+//Scenarie
+let userChoices = [];
+const textElement = document.querySelector('.text');
+const optionsBtnElement = document.querySelector('#option-buttons');
+const timerElement = document.querySelector('#timer');
+let countdown;
+let timeLeft = 20;
+let currentNodeId = 1;
+
 
 // Start
 function startScenario() {
