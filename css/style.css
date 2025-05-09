@@ -761,6 +761,14 @@ footer .somefooter i:hover {
     text-align: left;
     padding: 10px 0;
   }
+  /*Artikler*/
+  .artikel {
+    margin: 0px 200px 20px 200px;
+  }
+  .artikel img {
+    margin: 20px auto 20px auto;
+    display: block;
+  }
   /*Om os tablet*/
   #om-os {
     margin: 0px 200px 20px 200px;
@@ -840,6 +848,10 @@ footer .somefooter i:hover {
   /*Artikler*/
   .artikel {
     margin: 0px 550px 20px 550px;
+  }
+  .artikel img {
+    margin: 20px auto 20px auto;
+    display: block;
   }
   /*Om os-sider*/
   #om-os {

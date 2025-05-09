@@ -854,6 +854,17 @@ footer {
     padding: 10px 0;
   }
 
+  /*Artikler*/
+  .artikel {
+    margin: $tablet-margin;
+
+    img {
+      margin: 20px auto 20px auto; 
+      display: block;
+      
+    }
+  }
+
   /*Om os tablet*/
   #om-os {
     margin: $tablet-margin;
@@ -947,6 +958,12 @@ footer {
   /*Artikler*/
   .artikel {
     margin: $desktop-margin;
+
+    img {
+      margin: 20px auto 20px auto; 
+      display: block;
+      
+    }
   }
 
   /*Om os-sider*/
