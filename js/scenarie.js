@@ -6,6 +6,35 @@ let countdown;
 let timeLeft = 20;
 let currentNodeId = 1;
 
+"use strict";
+
+// Hamburger-menu
+const mobileMenutrigger = document.getElementById("mobileMenuTrigger");
+const mobileMenu = document.querySelector(".nav-links-container");
+const navLinks = document.querySelectorAll(".nav-links li a");
+
+mobileMenutrigger.addEventListener("click", () => {
+  mobileMenu.classList.toggle("active");
+  mobileMenutrigger.classList.toggle("active");
+  mobileMenutrigger.setAttribute(
+    "aria-expanded",
+    mobileMenu.classList.contains("active")
+  );
+});
+
+navLinks.forEach((link) => {
+  if (link.href === window.location.href) {
+    link.setAttribute("aria-current", "page");
+  }
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    mobileMenu.classList.remove("active");
+    mobileMenutrigger.classList.remove("active");
+  }
+});
+
 // Start
 function startScenario() {
   currentNodeId = 1;
