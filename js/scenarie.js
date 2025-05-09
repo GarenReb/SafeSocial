@@ -1,7 +1,7 @@
+let userChoices = [];
 const textElement = document.querySelector('.text');
 const optionsBtnElement = document.querySelector('#option-buttons');
 const timerElement = document.querySelector('#timer');
-
 let countdown;
 let timeLeft = 20;
 let currentNodeId = 1;
@@ -10,6 +10,7 @@ let currentNodeId = 1;
 function startScenario() {
   currentNodeId = 1;
   timeLeft = 20;
+  userChoices = []; // Nulstil brugerens valg
   showTextNode(currentNodeId);
   startTimer();
 }
@@ -50,6 +51,7 @@ function showTextNode(id) {
 
 // Når brugeren vælger et svar
 function selectOption(option) {
+  userChoices.push(option.text);
   if (option.nextText === 'end') {
     clearInterval(countdown);
     showEndNode();
@@ -72,6 +74,23 @@ function showEndNode() {
   });
   optionsBtnElement.appendChild(button);
 
+  // Viser de valgte svar
+  const userChoicesElement = document.createElement('div');
+  userChoicesElement.classList.add('user-choices');
+
+  const choicesHeader = document.createElement('h3');
+  choicesHeader.innerText = 'Dine valg:';
+  userChoicesElement.appendChild(choicesHeader);
+
+  userChoices.forEach((choice, index) => {
+    const choiceElement = document.createElement('p');
+    choiceElement.innerText = `${index + 1}. ${choice}`;
+    userChoicesElement.appendChild(choiceElement);
+  });
+
+  optionsBtnElement.appendChild(userChoicesElement);
+
+  // Link til at læse mere om phishing
   const link = document.createElement('a');
   link.href = 'http://inferi.dk/datasikkerhed/phising.html';
   link.innerText = 'Læs mere om phishing her';

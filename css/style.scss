@@ -656,7 +656,7 @@ footer {
       gap: 1rem;
 
       button {
-        @include button-style($tertiary, #004999, $quaternary-color);
+        @include button-style($secondary-color-dark, #004999, $quaternary-color);
       }
       }
     }
