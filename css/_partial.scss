@@ -43,3 +43,18 @@ $gradient: linear-gradient(
 /* Mixins */
 
 //Knapper
+@mixin button-style($bg-color, $hover-color, $text-color) {
+  background-color: $bg-color;
+  color: $text-color;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: $border-radius;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+  &:hover {
+    background-color: $hover-color;
+    color: $text-color;
+  }
+}

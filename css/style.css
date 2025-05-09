@@ -252,7 +252,7 @@ body {
 .carousel.prev .list .item:nth-child(2) .content .topic,
 .carousel.prev .list .item:nth-child(2) .content .des,
 .carousel.prev .list .item:nth-child(2) .content .buttons {
-  animation: contentOut 1.5s linear 1 forwards !important;
+  animation: contentOut 1.5s linear 1 forwards;
 }
 .carousel.prev .thumbnail .item:nth-child(1) {
   overflow: hidden;
@@ -307,11 +307,11 @@ body {
   right: 10px;
 }
 .thumbnail .item .content .title {
-  font-weight: 500;
+  font-weight: bold;
   color: #59b9e6;
 }
 .thumbnail .item .content .description {
-  font-weight: 300;
+  font-weight: bold;
   color: #fff;
 }
 
@@ -518,7 +518,6 @@ footer .somefooter i:hover {
 }
 
 /* Scenarie */
-/* Scenarie */
 .scenario-container {
   max-width: 100%;
   padding: 2rem;
@@ -529,6 +528,7 @@ footer .somefooter i:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 20px;
 }
 .scenario-container #intro {
   display: flex;
@@ -843,5 +843,10 @@ footer .somefooter i:hover {
   /*Om os-sider*/
   #om-os {
     margin: 0px 550px 20px 550px;
+  }
+  /*Testside*/
+  .scenario-container h1, .scenario-container p {
+    color: #fff;
+    margin-bottom: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

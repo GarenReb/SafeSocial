@@ -12,6 +12,7 @@
     <script src="js/scenarie.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
@@ -81,7 +82,7 @@
     <article class="artikel">
       <img src="img/malware_3.webp" alt="Illustration af malware" />
 
-      <h1>Sådan undgår du malware</h1>
+      <h1>Hvad er malware?</h1>
 
       <p class="artikel-intro">
         Malware er skadelig software, som kan stjæle dine data, skade dine filer
@@ -135,6 +136,26 @@
         <li>Download kun software fra pålidelige og officielle kilder.</li>
         <li>Tjek udvikler og anmeldelser, før du installerer nye apps.</li>
       </ul>
+       <!-- Intro til scenarie -->
+       <main class="scenario-container">
+        <section id="intro">
+          <h2>Kan du spotte svindel</h2>
+          <p>
+            Er du klar til at teste dine evner mod phishing på sociale medier?
+          </p>
+          <p>Tænk hurtigt, eller løber tiden ud.</p>
+          <button id="startButton" class="btn-scenario">Start test</button>
+        </section>
+
+        <!------Scenarie------->
+        <section id="scenario" style="display: none">
+          <div id="timer">Tid: 20s</div>
+          <div class="text-container">
+            <p class="text"></p>
+          </div>
+          <div id="option-buttons" class="btn-container"></div>
+        </section>
+      </main>
     </article>
 
     <!-- Footer -->
