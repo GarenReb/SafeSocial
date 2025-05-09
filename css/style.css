@@ -845,15 +845,15 @@ footer .somefooter i:hover {
   }
   /*Side om datasikkerhed*/
   .artikel-sektion {
-    margin: 0px 600px 20px 600px;
+    margin: 0px 500px 20px 500px;
   }
   /*Artikler*/
   .artikel {
-    margin: 0px 650px 20px 650px;
+    margin: 0px 550px 20px 550px;
   }
   /*Om os-sider*/
   #om-os {
-    margin: 0px 600px 20px 600px;
+    margin: 0px 500px 20px 500px;
   }
   /*Testside*/
   .scenario-container h1, .scenario-container p {
